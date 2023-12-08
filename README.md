@@ -22,7 +22,7 @@ This is the boilerplate code for the URL Shortener Microservice project.
 | :------------- | :------- | :---------------------------------------- |
 | `req.body.url` | `string` | url of the form, 'http://www.example.com' |
 
-#### Get item
+#### Get original url page via short url index
 
 ```http
   GET /api/shorturl/:target
